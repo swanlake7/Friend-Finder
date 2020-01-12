@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Find Your Friend</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+</head>
+
+<body>
+    <br>
+    <div class="container">
+        <div class="header">
+            <br>
+            <h2>Find Your Friend Questions</h2>
+        </div>
+        <hr>
+        <div class="form-group">
+            <h3>
+                <strong>Name (required)</strong>
+            </h3>
+            <input type="name" class="form-control" id="name">
+        </div>
+        <div class="form-group">
+            <h3>
+                <strong>Links to your Pics (required)</strong>
+            </h3>
+
+            <input type="picture" class="form-control" id="picture">
+        </div>
+        <div class="form-group">
+            <h3>
+                <strong>Q1</strong>
+            </h3>
+            <label for="form1">I love metal music.</label>
+            <select class="form-control" id="form1">
+                <option value="1">1 (disagree very strongly)</option>
+                <option value="2">2 (disagree a little bit) </option>
+                <option value="3">3 (meh, I'm neutral, don't care) </option>
+                <option value="4">4 (agree a little bit) </option>
+                <option value="5">5 (agree very strongly)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <h3>
+                <strong>Q2</strong>
+            </h3>
+            <label for="form2">I enjoy anime</label>
+            <select class="form-control" id="form2">
+                <option value="1">1 (disagree very strongly)</option>
+                <option value="2">2 (disagree a little bit) </option>
+                <option value="3">3 (meh, I'm neutral, don't care) </option>
+                <option value="4">4 (agree a little bit) </option>
+                <option value="5">5 (agree very strongly)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <h3>
+                <strong>Q3</strong>
+            </h3>
+            <label for="form3">I'm conservative, more of a Republican then a Democrat</label>
+            <select class="form-control" id="form3">
+                <option value="1">1 (disagree very strongly)</option>
+                <option value="2">2 (disagree a little bit) </option>
+                <option value="3">3 (meh, I'm neutral, don't care) </option>
+                <option value="4">4 (agree a little bit) </option>
+                <option value="5">5 (agree very strongly)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <h3>
+                <strong>Q4</strong>
+            </h3>
+            <label for="form4">I like to drink alcohol and smoke when I hang out</label>
+            <select class="form-control" id="form4">
+                <option value="1">1 (disagree very strongly)</option>
+                <option value="2">2 (disagree a little bit) </option>
+                <option value="3">3 (meh, I'm neutral, don't care) </option>
+                <option value="4">4 (agree a little bit) </option>
+                <option value="5">5 (agree very strongly)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <h3>
+                <strong>Q5</strong>
+            </h3>
+            <label for="form5">I care about the environment, I think climate change is real and happening and that
+                humans are responsible for that stuff.</label>
+            <select class="form-control" id="form5">
+                <option value="1">1 (disagree very strongly)</option>
+                <option value="2">2 (disagree a little bit) </option>
+                <option value="3">3 (meh, I'm neutral, don't care) </option>
+                <option value="4">4 (agree a little bit) </option>
+                <option value="5">5 (agree very strongly)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <h3>
+                <strong>Q6</strong>
+            </h3>
+            <label for="form6">I'm open to try new things, and am pretty adventurous.</label>
+            <select class="form-control" id="form6">
+                <option value="1">1 (disagree very strongly)</option>
+                <option value="2">2 (disagree a little bit) </option>
+                <option value="3">3 (meh, I'm neutral, don't care) </option>
+                <option value="4">4 (agree a little bit) </option>
+                <option value="5">5 (agree very strongly)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <h3>
+                <strong>Q7</strong>
+            </h3>
+            <label for="form7">I want my friends to be open minded like me.</label>
+            <select class="form-control" id="form7">
+                <option value="1">1 (disagree very strongly)</option>
+                <option value="2">2 (disagree a little bit) </option>
+                <option value="3">3 (meh, I'm neutral, don't care) </option>
+                <option value="4">4 (agree a little bit) </option>
+                <option value="5">5 (agree very strongly)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <h3>
+                <strong>Q8</strong>
+            </h3>
+            <label for="form8">I like out door activities with friends.</label>
+            <select class="form-control" id="form8">
+                <option value="1">1 (disagree very strongly)</option>
+                <option value="2">2 (disagree a little bit) </option>
+                <option value="3">3 (meh, I'm neutral, don't care) </option>
+                <option value="4">4 (agree a little bit) </option>
+                <option value="5">5 (agree very strongly)</option>
+            </select>
+        </div>
+
+
+        <div class="form-group">
+            <h3>
+                <strong>Q9</strong>
+            </h3>
+            <label for="form8">I read alot about science and or arts, just for funzies</label>
+            <select class="form-control" id="form8">
+                <option value="1">1 (disagree very strongly)</option>
+                <option value="2">2 (disagree a little bit) </option>
+                <option value="3">3 (meh, I'm neutral, don't care) </option>
+                <option value="4">4 (agree a little bit) </option>
+                <option value="5">5 (agree very strongly)</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <h3>
+                <strong>Q10</strong>
+            </h3>
+            <label for="form8">I like to spend time with friend in real life versus via the internet (phone, laptop,
+                game console, etc)</label>
+            <select class="form-control" id="form8">
+                <option value="1">1 (disagree very strongly)</option>
+                <option value="2">2 (disagree a little bit) </option>
+                <option value="3">3 (meh, I'm neutral, don't care) </option>
+                <option value="4">4 (agree a little bit) </option>
+                <option value="5">5 (agree very strongly)</option>
+            </select>
+        </div>
+
+
+        <a class="btn btn-primary submit btn-primary btn-lg btn-block" role="button" type="submit">SUBMIT</a>
+    </div>
+
+    <script type="text/javascript">
+        $(".submit").on("click", function (event) {
+            event.preventDefault();
+            const newFriend = {
+                name: $("#name").val().trim(),
+                picUrl: $("#picture").val().trim(),
+                q1: $("#form1").val().trim(),
+                q2: $("#form2").val().trim(),
+                q3: $("#form3").val().trim(),
+                q4: $("#form4").val().trim(),
+                q5: $("#form5").val().trim(),
+                q6: $("#form6").val().trim(),
+                q7: $("#form7").val().trim(),
+                q8: $("#form8").val().trim(),
+                q9: $("#form9").val().trim(),
+                q10: $("#form10").val().trim(),
+            }
+            console.log(newFriend);
+            $.post("/friendsList", newFriend).then(function () {
+                $("#name").val("");
+                $("#picture").val("");
+                $("#form1").val(1);
+                $("#form2").val(1);
+                $("#form3").val(1);
+                $("#form4").val(1);
+                $("#form5").val(1);
+                $("#form6").val(1);
+                $("#form7").val(1);
+                $("#form8").val(1);
+                $("#form9").val(1);
+                $("#form10").val(1);
+            })
+        })
+    </script>
+
+</body>
+
+</html>
